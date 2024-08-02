@@ -52,11 +52,30 @@
             padding-bottom: 10px;
             font-size: 2em;
         }
+                .schedule {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .schedule th, .schedule td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+        .schedule th {
+            background-color: #f2f2f2;
+        }
+        .schedule tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .schedule tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Discussion Meetings</h1>
+        <h1>Meeting Schedules</h1>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -64,16 +83,49 @@
         <a href="resources.html">Resources</a>
     </nav>
     <div class="container">
+        <h2>Discussion meeting schedules</h2>
+        <p> Location: TBD</p>
+        <p>zoom link: <a href="https://ucsd.zoom.us/j/96636183268?pwd=4ZINoIxGQGApibT9aHFRzkcEZQNcWK.1">click here</a></p>
 
-        <p>We intend to organize a Scripps SWOT discussion group that will meet monthly. Each meeting will last for one to one and half hours, featuring presentations from one or two researchers reporting their progress on SWOT-related research. These meetings will provide an informal setting for researchers to share their work, receive feedback, and foster collaborations. This will be discussed at the workshop on July 29th, 2024. More to follow.</p>
+            Meeting ID: 966 3618 3268
+            Password: goswot!
+       
+        </p>
+
+        <p>Lunch will be provided.</p>
+        <p>Please contact Yao Yu (yayu@ucsd.edu) if you have dietary restrictions, or with any questions. </p>
     </div>
 
     <div class="container">
-        <h2>Meeting Schedules</h2>
-        <ul>
-            <!-- Add meeting schedule items here -->
-        </ul>
+
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Presenter</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday, 9/2, noon</td>
+                    <td>Youran Li</td>
+                    <td>Internal tides from SWOT</td>
+                </tr>
+                <tr>
+                    <td>Monday, 11/4, noon</td>
+                    <td>Josephine Joergensen</td>
+                    <td>Abyssal hill characterization from SWOT</td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
     </div>
+
+
 </body>
 </html>
 
