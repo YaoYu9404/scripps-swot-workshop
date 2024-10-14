@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathymetric Prediction Workshop</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-image: url('./figures/bathy_MariannaTrench.jpg'); /* URL of the bathymtry image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            background: #005daa;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 3px solid #005daa;
+            padding-bottom: 10px;
+            font-size: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bathymetric / Gravity and Mean Sea Surface Prediction Workshop</h1>
+    <h3>November 18 – 28, 2024 | DTU Space 328/123 or Zoom</h3>
+</header>
+
+<!-- <nav>
+    <a href="index.html">Home</a>
+    <a href="discussion.html">Discussion Meetings</a>
+    <a href="resources.html">Resources</a>
+    <a href="bathymetric_workshop.html">Bathymetric Prediction Workshop</a>
+</nav> -->
+
+<div class="container">
+    <h2>Workshop Details</h2>
+    <p><strong>Time:</strong> 17:00 – 18:30 CET | 11:00 – 12:30 EST | 8:00 – 9:30 PST</p>
+    <p><strong>Location:</strong> DTU Space 328/123 </p>
+    <p><a href="https://ucsd.zoom.us/j/9566699054">Zoom</a>: https://ucsd.zoom.us/j/9566699054 </p>
+
+
+    <h2>Objectives</h2>
+    <p>The main objective of this workshop is to develop best practices for predicting bathymetry from a combination of sparse ship soundings and marine gravity from SWOT altimetry. A secondary objective is to develop best practices for constructing a mean sea surface (MSS) and other gravity products from SWOT.</p>
+
+    <h2>Prediction Competition</h2>
+    <p>During the workshop, we will have an informal competition using three datasets: SWOT gravity, SRTM soundings (training data), and unique GEBCO soundings (evaluation data). Participants can use any other data/information, but they will not have access to the unique GEBCO soundings, which will be used for evaluation.</p>
+
+    <h2>Agenda</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Topic</th>
+                <th>Presenter 1</th>
+                <th>Presenter 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>November 18</td>
+                <td>Introduction / MSS from SWOT</td>
+                <td>Andersen</td>
+                <td>Schaeffer</td>
+            </tr>
+            <!-- Add the remaining agenda following the same structure -->
+            <tr>
+                <td>November 19</td>
+                <td>Gravity from SWOT</td>
+                <td>Yu</td>
+                <td>Nilsson</td>
+            </tr>
+            <tr>
+                <td>November 20</td>
+                <td>travel day</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>November 21</td>
+                <td>Seabed2030/IBCAO/Ocean Shot</td>
+                <td>Mayer</td>
+                <td>Jakobsson</td>
+            </tr>
+            <tr>
+                <td>November 22</td>
+                <td>Prediction Methods: Nettleton/DNN</td>
+                <td>Smith</td>
+                <td>Harper</td>
+            </tr>
+            <tr>
+                <td>November 25</td>
+                <td>Prediction Competition</td>
+                <td>Sandwell</td>
+                <td>Yu</td>
+            </tr>
+            <tr>
+                <td>November 26</td>
+                <td>Prediction Results</td>
+                <td>Kirby/Lu? </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>November 27</td>
+                <td>Prediction Results</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>November 28</td>
+                <td>Prediction Results</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+        <h2>Participants</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Affiliation</th>
+                <th>Email</th>
+                <th>In-Person</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ole Andersen</td>
+                <td>DTU</td>
+                <td>oa@space.dtu.dk</td>
+                <td>Yes</td>
+            </tr>
+            <!-- Add more participants following the same structure -->
+
+            <tr><td>Bjarke Nilsson</td><td>DTU</td><td>bjarke@space.dtu.dk</td><td>Yes</td></tr>
+            <tr><td>Per Knudsen</td><td>DTU</td><td>pk@space.dtu.dk</td><td>Yes</td></tr>
+            <tr><td>Biao Lu</td><td>DTU</td><td>bialu@dtu.dk</td><td>No</td></tr>
+            <tr><td>Jon Kirby</td><td>DTU</td><td></td><td>No</td></tr>
+            <tr><td>David Sandwell</td><td>SIO</td><td>dsandwell@ucsd.edu</td><td>Yes</td></tr>
+            <tr><td>Yao Yu</td><td>SIO</td><td>yayu@ucsd.edu</td><td>No</td></tr>
+            <tr><td>Josephine Joergensen</td><td>SIO</td><td>jjoergensen@ucsd.edu</td><td>No</td></tr>
+            <tr><td>James Beale</td><td>NGA</td><td>James.R.Beale@nga.mil</td><td>Yes</td></tr>
+            <tr><td>Jamie Roberts</td><td>NGA</td><td></td><td>Yes</td></tr>
+            <tr><td>Walter Smith</td><td>NOAA</td><td>walter.hf.smith@noaa.gov</td><td>Maybe</td></tr>
+            <tr><td>Hugh Harper</td><td>NGA</td><td>huharper@ucsd.edu</td><td>No</td></tr>
+            <tr><td>Paul Elmore</td><td>JHUAPL</td><td>Paul.Elmore@jhuapl.edu</td><td>No</td></tr>
+            <tr><td>Erika Simon</td><td>JHUAPL</td><td>Erika.Simon@jhuapl.edu</td><td>No</td></tr>
+            <tr><td>Ben Phrampus</td><td>NRL</td><td>benjamin.phrampus.civ@us.navy.mil</td><td>No</td></tr>
+            <tr><td>Chelsea Peterson</td><td>USM</td><td>Chelsea.Pederson@usm.edu</td><td>No</td></tr>
+            <tr><td>Luis Parez</td><td>USM</td><td>Luis.AltamiranoPerez@usm.edu</td><td>No</td></tr>
+            <tr><td>Martin Jakobsson</td><td>SU</td><td>martin.jakobsson@geo.su.se</td><td>Stockholm</td></tr>
+            <tr><td>Larry Mayer</td><td>UNH</td><td>larry.mayer@unh.edu</td><td>Stockholm</td></tr>
+            <tr><td>Fukai Peng</td><td></td><td></td><td>No</td></tr>
+            <tr><td>Guy Henyang</td><td>UN Stuttgart</td><td>hengyang.guo@gis.uni-stuttgart.de</td><td>No</td></tr>
+            <tr><td>Xiaoli Deng</td><td>Newcastle</td><td>xiaoli.deng@newcastle.edu.au</td><td>No</td></tr>
+            <tr><td>Phil Schaeffer</td><td>CLS</td><td>pschaeffer@groupcls.com</td><td>Yes</td></tr>
+            <tr><td>Cheinway Hwang</td><td>NCTU</td><td>cheinway@mail.nctu.edu.tw</td><td>No</td></tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
+
